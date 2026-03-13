@@ -35,7 +35,7 @@ export async function setCachedResponse(
       response: response as object,
       created_at: new Date().toISOString(),
     },
-    { onConflict: ['cache_key_hash', 'cache_type'] }
+    { onConflict: 'cache_key_hash,cache_type' }
   );
 
   if (error) {
