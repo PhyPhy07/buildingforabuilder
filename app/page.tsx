@@ -187,7 +187,7 @@ export default function Home() {
             disabled={loading}
             className="w-full sm:w-auto rounded-lg bg-pink-500 px-6 py-2.5 font-bold text-ivory transition-colors hover:bg-pink-600 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            {loading ? 'Thinking...' : 'Get response'}
+            {loading ? 'Planning...' : 'Start Planning'}
           </button>
         </form>
 
@@ -230,7 +230,7 @@ export default function Home() {
                     disabled={loading}
                     className="w-full sm:w-auto rounded-lg bg-pink-500 px-4 py-2 text-sm font-bold text-ivory transition-colors hover:bg-pink-600 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    {loading ? 'Refining...' : 'Refine estimate'}
+                    {loading ? 'Syncing Plan...' : 'Sync Plan'}
                   </button>
                 </form>
               </div>
